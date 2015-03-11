@@ -3,6 +3,8 @@
 
 Vagrant.configure(2) do |config|
 
+  config.vm.define "dockerplay" do |config|
+
   config.vm.box = "ubuntu/trusty64"
 
   config.ssh.forward_x11 = true
@@ -11,7 +13,7 @@ Vagrant.configure(2) do |config|
   config.vm.provider "virtualbox" do |vb|
     vb.customize ["modifyvm", :id, "--memory", "512"]
   end
-    
+
   # http://fgrehm.viewdocs.io/vagrant-cachier
   if Vagrant.has_plugin?("vagrant-cachier")
     config.cache.scope = :box
@@ -23,6 +25,8 @@ Vagrant.configure(2) do |config|
     salt.minion_config = "salt/minion"
     salt.run_highstate = true
     salt.verbose = true
-  end  
+  end
+
+  end
 
 end
