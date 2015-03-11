@@ -19,5 +19,3 @@ ssh:
 clean:
 	vagrant destroy --force
 
-sublime:
-	vagrant ssh -c 'subl "/vagrant" > subl.log 2> subl.err < /dev/null' &

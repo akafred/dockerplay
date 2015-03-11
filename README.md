@@ -37,10 +37,6 @@ See [Makefile](Makefile) for more commands.
 
 * `./docker <command>` e.g `./docker ps`
 
-### Running development tools from inside the virtual machine
-
-* Sublime: `make sublime`
-
 ### Credits 
 
 - Approach inspired by work done at Oslo Public Library (http://github.com/digibib)
