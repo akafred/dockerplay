@@ -33,13 +33,13 @@ and [SaltStack](http://docs.saltstack.com/) for automated provisioning.
 
 See [Makefile](Makefile) for more commands.
 
+### Convenience command for using docker
+
+* `./docker <command>` e.g `./docker ps`
+
 ### Running development tools from inside the ls.test virtual machine
 
 * Sublime: `make sublime`
-
-### Convenice command to use docker
-
-* `./docker <command>` e.g `./docker ps`
 
 ### Credits 
 
