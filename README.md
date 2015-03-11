@@ -37,7 +37,7 @@ See [Makefile](Makefile) for more commands.
 
 * `./docker <command>` e.g `./docker ps`
 
-### Running development tools from inside the ls.test virtual machine
+### Running development tools from inside the virtual machine
 
 * Sublime: `make sublime`
 
