@@ -13,6 +13,9 @@ up:
 provision:
 	vagrant ssh -c 'sudo salt-call --log-level debug --local state.highstate'
 
+ssh:
+	vagrant ssh
+
 clean:
 	vagrant destroy --force
 
