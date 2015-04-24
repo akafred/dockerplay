@@ -1,2 +1,4 @@
-#!/bin/sh
-vagrant ssh -c 'sudo docker $@'
+#!/bin/bash
+args=$@
+vagrant ssh -c "sudo docker $args"
+
